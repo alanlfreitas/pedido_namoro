@@ -41,10 +41,10 @@ noButton.addEventListener('click', () => {
 });
 
 // Função para adicionar trilha usando spotify(Não funcional ainda)
-document.addEventListener("DOMContentLoaded", () => {
-    const spotifyIframe = document.getElementById("spotify-player");
+// document.addEventListener("DOMContentLoaded", () => {
+//     const spotifyIframe = document.getElementById("spotify-player");
     
-    document.body.addEventListener("click", () => {
-        spotifyIframe.src += "&autoplay=1";
-    }, { once: true });
-});
+//     document.body.addEventListener("click", () => {
+//         spotifyIframe.src += "&autoplay=1";
+//     }, { once: true });
+// });
